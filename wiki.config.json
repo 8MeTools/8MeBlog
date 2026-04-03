@@ -1,0 +1,8 @@
+{
+  "title": "8Me's Blog",
+  "navigation": "./nav.md",
+  "header": "./header.md",
+  "footer": "./footer.md",
+  "defaultPage": "about",
+  "tableOfContents": true
+}

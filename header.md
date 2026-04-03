@@ -1,0 +1,1 @@
+![8Me's Blog](https://github.com/8MeTools.png =x28) [**8Me's Blog**](?page=about)  Powered by lobster.js
