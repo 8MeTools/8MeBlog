@@ -24,7 +24,6 @@
 /* ─── Reset ─────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; }
 body {
-  margin: 0;
   font-family: var(--lbw-font);
   color: var(--lbw-color);
   line-height: 1.7;
