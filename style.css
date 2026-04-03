@@ -66,7 +66,7 @@ a:hover { text-decoration: underline; }
   width: var(--lbw-sidebar-width);
   flex-shrink: 0;
   border-right: 1px solid var(--lbw-border);
-  padding: 1.25rem 0 1.25rem 0.75rem;
+  padding: 1rem 0 1.25rem 1rem;
   position: sticky;
   top: var(--lbw-header-height);
   height: calc(100vh - var(--lbw-header-height));
@@ -291,7 +291,7 @@ a:hover { text-decoration: underline; }
     position: static;
     border-right: none;
     border-bottom: 1px solid var(--lbw-border);
-    padding: 0.5rem 0;
+    padding: 1rem;
   }
   .lbw-main { padding: 1.25rem 1rem; }
 }
