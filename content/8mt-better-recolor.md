@@ -50,6 +50,8 @@ File Nameは、MenuSingle.szsのサブファイルのパスを示しています
 Switch Toolboxを使用してMenuSingle.szsを開き、上記のPaneが存在するサブファイルを探してください。
 サブファイルを開くと、ソフトウェア内でプレビューを確認できます。実際にPaneのカラーコードを編集して、ゲームで表示される色がどのように変化するかを確認することができます。
 
+![Switch Toolbox Guide](../images/8mt-better-recolor/switch-toolbox-guide.png)
+
 変更したいカラーコードを決定したら、`color_config.json`ファイルを編集してください。`color_config.json`には、変更したいカラーコードと対応するPaneの名前が記載されています。これを変更することで、同じPane Nameのカラーコードを一括で変更することができます。
 
 JSONファイルの変更が完了したら、pythonスクリプト(もしくはipynb)を実行してください。
