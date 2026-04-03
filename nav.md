@@ -10,3 +10,7 @@
 
   - [UI仕様のまとめ](?page=rr-ui-document)
   - [カスタムUIAssetsを正しく読み込むために](?page=rr-ui-load-asset)
+
+- 8MeTools
+
+  - [BetterRecolorをリリースしました](?page=8mt-better-recolor)
