@@ -14,3 +14,4 @@
 - 8MeTools
 
   - [BetterRecolorをリリースしました](?page=8mt-better-recolor)
+  - [BetterRecolorをWSL2で動かしてみる](?page=8mt-btrc-wsl2)
