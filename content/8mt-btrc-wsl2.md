@@ -14,7 +14,7 @@ BetterRecolorをWSL2で動かす方法を紹介します。
 
 ![WSL2でBetterRecolorを動かす際のエラー](../images/8mt-btrc-wsl2/00_error.png)
 
-WSL2ではシステム全体にPythonパッケージをインストールすることを推奨していないためにこのエラーが出ています。
+このエラーはWSL2固有の問題というより、Ubuntu/Debian系で採用されているPythonのパッケージ管理方針(PEP 668: externally managed environment)の影響で表示されます。
 無視する方法などもありますが、プロジェクトごとに仮想環境を作成して、その中に必要なパッケージをインストールする方法が一般的です。
 
 今回は、Pythonの仮想環境である`venv`を使用して、BetterRecolorの依存関係をインストールする方法を紹介します。
