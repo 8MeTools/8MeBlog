@@ -12,7 +12,7 @@
 ### My Stuffと何が違うの
 SZSファイルを例に挙げて考えてみましょう。例えば、`Race.szs`に含まれる順位画像をあなたが変えたとします。これまでの場合は、たった数ファイルの変更だったとしても`Race.szs`に圧縮してMy Stuffフォルダに入れていましたよね。
 
-簡単に言えば、**圧縮の作業がRRでは不要になった**わけです。(圧縮自体はそこまで手間のかかる作業ではないのですが)
+簡単に言えば、理論上**圧縮の作業がRRでは不要になった**わけです。(圧縮自体はそこまで手間のかかる作業ではないのですが...)
 
 詳細は後で説明しますが、この仕様になると既存のUI補完ファイル(`UIAssets`など)とユーザーが作成した独自のファイルの共存がしやすくなります。
 
@@ -66,12 +66,12 @@ n_Circuit32_f.brstm
 ```
 common_w004_menu.brlyt.menusingle
 ```
-このように記述すると、**MenuSingle.szs内のcommon_w004_menu.brlyt**を置き換えることができます。
+このように記述すると、**MenuSingle.szs内の`common_w004_menu.brlyt`**を置き換えることができます。
 実は、`Folder1`と`Folder2`は必須のタグではありません。指定がない場合、アーカイブ内に存在する対象のサブファイルをすべて置き換えます。
 
 この例を基に話すと、置き換えられるサブファイルは
-- MenuSingle.szs/button/blyt/common_w004_menu.brlyt
-- MenuSingle.szs/message_window/blyt/common_w004_menu.brlyt
+- `MenuSingle.szs/button/blyt/common_w004_menu.brlyt`
+- `MenuSingle.szs/message_window/blyt/common_w004_menu.brlyt`
 
 上記の２つになります。一気に置き換えることが目的であれば問題ないですが、意図しない変更を巻き起こす可能性もあります。
 
@@ -79,11 +79,11 @@ common_w004_menu.brlyt.menusingle
 ```
 [button][blyt]common_w004_menu.brlyt.menusingle
 ```
-このように記述すると、**MenuSingle.szs内のbutton/blyt/common_w004_menu.brlyt**を置き換えることができます。
+このように記述すると、**MenuSingle.szs内の`button/blyt/common_w004_menu.brlyt`**を置き換えることができます。
 例Aと違うのが、`Folder1`と`Folder2`の有無です。指定をすることで、置き換え対象のファイルを絞り込むことができます。
 
 この例を基に話すと、置き換えられるサブファイルは
-- MenuSingle.szs/button/blyt/common_w004_menu.brlyt
+- `MenuSingle.szs/button/blyt/common_w004_menu.brlyt`
 
 上記の１つだけになります。意図しない変更を巻き起こす問題はこちらのような記述で回避できます。
 
